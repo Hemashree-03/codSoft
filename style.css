@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://www.allbusiness.com/asset/2016/04/group-discussion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+nav{
+    height: 90px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#eb7620;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    transform: translateY(25vh);
+}
+.Download-Now-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 0;
+    letter-spacing: 0px;
+    border-radius: 0px;
+    padding: 1px 20px;
+    margin-left: 0px; 
+}
+.Download-Now-btn:hover{
+    background: rgb(54, 1, 1);
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: rgb(176, 176, 182);
+}
+.paragraph2{
+    text-align:center;
+    font-size: 100px;
+    font-family: nos;
+    color: rgb(13, 132, 104);
+}
